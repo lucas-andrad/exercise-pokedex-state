@@ -20,6 +20,31 @@ body {
 
 .pokedex {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   margin: 10px 10px;
+}
+
+.pokedex button {
+  height: 120px;
+  border-radius: 20%;
+}
+
+.buttonTypes button{
+  border: none;
+  margin: 10px;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.buttonTypes .psychic {
+  background-color: turquoise;
+}
+
+.buttonTypes .fire {
+  background-color: red;
+}
+
+.buttonTypes .all {
+  background-color: white;
+  border: 1px solid black;
 }
